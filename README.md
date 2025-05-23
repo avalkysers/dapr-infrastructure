@@ -17,7 +17,7 @@ Follow the next steps to setup the environment and run the dapr apps.
 python -m venv .venv
 
 # Activate the virtual environment
-./.venv/bin/activate
+source ./.venv/bin/activate
 
 # Install required Phython modules.
 pip install -r checkout/requirements.txt
