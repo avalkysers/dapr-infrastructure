@@ -1,2 +1,2 @@
-dapr uninstall
+dapr uninstall 
 dapr init

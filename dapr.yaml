@@ -1,11 +1,9 @@
 version: 1
-#common:
-#  resourcesPath: ./components/
 apps:
-  - appID: order-processor-sdk
+  - appID: checkout
+    appDirPath: ./checkout/
+    command: ["python", "app.py"]
+  - appID: order-processor
     appDirPath: ./order-processor/
     appPort: 6001
     command: ["uvicorn", "app:app"]
-  - appID: checkout-sdk
-    appDirPath: ./checkout/
-    command: ["python", "app.py"]
